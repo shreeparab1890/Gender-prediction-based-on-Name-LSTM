@@ -1,7 +1,7 @@
 # Gender prediction based on Name LSTM
 This ipython notebook is working to build a model which will predict the gender based on the names. 
 The dataset used has been taken from:  <a href="https://gist.github.com/mbejda/7f86ca901fe41bc14a63">Male Names</a>  
-<a href="https://gist.github.com/mbejda/9b93c7545c9dd93060bd">Female Names</a> 
+<a href="https://gist.github.com/mbejda/9b93c7545c9dd93060bd">Female Names</a>  
 You can follow the analysis on <a href="https://www.kaggle.com/code/shrikrishnaparab/gender-prediction-based-on-name-using-lstm">kaggle</a>
 
 ## Packeges Used:
