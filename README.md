@@ -13,3 +13,7 @@ You can follow the analysis on <a href="https://www.kaggle.com/code/shrikrishnap
 [Pandas-image]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
 [ipython-image]: https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white
 [Plotly-image]: https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white
+
+
+## Process:
+![Process](ML Development Life Cycle.png)
