@@ -16,4 +16,4 @@ You can follow the analysis on <a href="https://www.kaggle.com/code/shrikrishnap
 
 
 ## Process:
-![Process](ML Development Life Cycle.png)
+![Process](ml-lifecycle.png)
