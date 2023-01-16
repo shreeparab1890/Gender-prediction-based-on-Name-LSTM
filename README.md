@@ -2,6 +2,10 @@
 This ipython notebook is working to build a model which will predict the gender based on the names. 
 The dataset used has been taken from:  <a href="https://www.kaggle.com/datasets/shrikrishnaparab/gender-based-names">Kaggle: Gender Based Names</a>  
 You can follow the analysis on <a href="https://www.kaggle.com/code/shrikrishnaparab/gender-prediction-based-on-name-using-lstm">kaggle</a>
+ 
+## The Output:
+![app](app.png)
+### Check the app <a href="https://huggingface.co/spaces/Shrikrishna/Gender_predictions_based_on_name">here</a> 
 
 ## Packeges Used:
  ![Python][python] ![TensorFlow][tensor-image] ![scikit-learn][sklearn-image] ![Pandas][Pandas-image] ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Jupyter Notebook][ipython-image] ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
