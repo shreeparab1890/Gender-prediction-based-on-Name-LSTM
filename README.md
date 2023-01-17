@@ -7,7 +7,7 @@ You can follow the analysis on <a href="https://www.kaggle.com/code/shrikrishnap
 Streamlit is used to build a front-end for the Gender prediction app and is deployed on huggingface.co.
 ![app](app.png)
 ### Check the app:
-### [![Open in Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue](https://huggingface.co/spaces/Shrikrishna/Gender_predictions_based_on_name)
+[![Open in Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Shrikrishna/Gender_predictions_based_on_name)
 ### [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shreeparab1890-gender-prediction-based-on-name-lstm-app-o6k25d.streamlit.app/)
 
 ## Packeges Used:
