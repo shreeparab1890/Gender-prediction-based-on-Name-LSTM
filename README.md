@@ -3,13 +3,6 @@ This ipython notebook is working to build a model which will predict the gender 
 The dataset used has been taken from:  <a href="https://www.kaggle.com/datasets/shrikrishnaparab/gender-based-names">Kaggle: Gender Based Names</a>  
 You can follow the analysis on <a href="https://www.kaggle.com/code/shrikrishnaparab/gender-prediction-based-on-name-using-lstm">kaggle</a>
  
-## Deployment:
-Streamlit is used to build a front-end for the Gender prediction app and is deployed on huggingface.co and streamlit.
-![app](app.png)
-### Check the app:
-[![Open in Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Shrikrishna/Gender_predictions_based_on_name)
-### [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shreeparab1890-gender-prediction-based-on-name-lstm-app-o6k25d.streamlit.app/)
-
 ## Packeges Used:
  ![Python][python] ![TensorFlow][tensor-image] ![scikit-learn][sklearn-image] ![Pandas][Pandas-image] ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Jupyter Notebook][ipython-image] ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
  
@@ -40,4 +33,9 @@ Streamlit is used to build a front-end for the Gender prediction app and is depl
     - Deployment
       2. Deploy the model and use to make a Webapplication. We have used Stremlit and HuggingFace to Deploy.
 
-
+## Deployment:
+Streamlit is used to build a front-end for the Gender prediction app and is deployed on huggingface.co and streamlit.
+![app](app.png)
+### Check the app:
+[![Open in Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Shrikrishna/Gender_predictions_based_on_name)
+### [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shreeparab1890-gender-prediction-based-on-name-lstm-app-o6k25d.streamlit.app/)
