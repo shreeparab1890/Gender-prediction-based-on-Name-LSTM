@@ -4,7 +4,7 @@ The dataset used has been taken from:  <a href="https://www.kaggle.com/datasets/
 You can follow the analysis on <a href="https://www.kaggle.com/code/shrikrishnaparab/gender-prediction-based-on-name-using-lstm">kaggle</a>
  
 ## Deployment:
-Streamlit is used to build a front-end for the Gender prediction app and is deployed on huggingface.co.
+Streamlit is used to build a front-end for the Gender prediction app and is deployed on huggingface.co and streamlit.
 ![app](app.png)
 ### Check the app:
 [![Open in Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Shrikrishna/Gender_predictions_based_on_name)
@@ -22,3 +22,22 @@ Streamlit is used to build a front-end for the Gender prediction app and is depl
 
 ## Process:
 ![Process](ml-lifecycle.png)
+
+### The ML Process can be used to build app architecture for our problem statement.  
+### Process flow is as follows:  
+    - Data Collection:
+      In this project we have use the labeled dataset i.e name labeled with respective gender from <a href="https://www.kaggle.com/datasets/shrikrishnaparab/gender-based-names">Kaggle: Gender Based Names</a>.
+    - Data Preprocessing:  
+      1. Lowercase: convert the name to lowercase
+      2. Spliting: split each character
+      3. Padding: pad with empty set to make the length of the names same.
+      4. Encode: encode each char with respective number i.e. a=1, b=2 and so on till z=26. Blank char " "=0. 
+      5. Embeddings: represent each name as a embedding using above encoding.
+    - Model Training:
+      1. Train a Bidirectional LSTM
+    - Model Testing
+      1. Test the trained model using some test set
+    - Deployment
+      2. Deploy the model and use to make a Webapplication. We have used Stremlit and HuggingFace to Deploy.
+
+
