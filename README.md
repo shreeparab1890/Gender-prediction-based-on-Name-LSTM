@@ -26,7 +26,7 @@ Streamlit is used to build a front-end for the Gender prediction app and is depl
 ### The ML Process can be used to build app architecture for our problem statement.  
 ### Process flow is as follows:  
     - Data Collection:
-      In this project we have use the labeled dataset i.e name labeled with respective gender from <a href="https://www.kaggle.com/datasets/shrikrishnaparab/gender-based-names">Kaggle: Gender Based Names</a>.
+      In this project we have use the labeled dataset i.e name labeled with respective gender from Kaggle.
     - Data Preprocessing:  
       1. Lowercase: convert the name to lowercase
       2. Spliting: split each character
