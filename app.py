@@ -61,13 +61,13 @@ if st.button("Get Gender"):
         'Boy' if logit > 0.5 else 'Girl' for logit in result
     ]
 
-    pred_df['Prediction Confidence (0-1)'] = [
+    pred_df['Prediction Confidence (%)'] = [
         logit if logit > 0.5 else 1.0 - logit for logit in result
     ]
 
     # Format the output
     pred_df['Name'] = names
-    pred_df['Prediction Confidence (0-1)'] = pred_df['Prediction Confidence (0-1)'].round(2)
+    pred_df['Prediction Confidence (%)'] = pred_df['Prediction Confidence (%)'].round(2)*100
     pred_df.drop_duplicates(inplace=True)
     st.header('Predictions: ')
     st.table(pred_df)
